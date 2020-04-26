@@ -1,0 +1,50 @@
+body {
+   background-color: rgba(6, 41, 54, 0.63); 
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.serach {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin-top: 8%;
+}
+#emailHelp {
+    color: black !important;
+}
+.slaider {
+    margin-top: 80px;
+}
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+
+    .owl-dot {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: rgba(1, 211, 248, 0.452) !important;
+        margin-left: 5px;
+        outline: none;
+    }
+    .owl-dot.active {
+        background-color: rgba(0, 123, 255, 0.781) !important;
+    }
+}
+.card-title {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+.card {
+    height: 580px;
+   
+}
+.item {
+    display: flex;
+    justify-content: center;
+}
